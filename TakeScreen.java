@@ -12,7 +12,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TakeScreen extends BaseClass {
 	
 			public static void main(String[] args) throws IOException {
+ 		// (public static void launchBrowser() {
 
+		// WebDriverManager.chromedriver().setup();
+		// driver = new ChromeDriver();
+
+		// launchBrowser is a BaseClass method, So I used in TakeScreen Class)
 			launchBrowser();
 			
 			driver.get("https://www.facebook.com/");
